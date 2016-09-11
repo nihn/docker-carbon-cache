@@ -1,5 +1,5 @@
 # docker-carbon-cache #
-Minimal image based on python:2.7.12-alpine with carbon-cache daemon running.
+Minimal image based on `python:2.7.12-alpine` with carbon-cache daemon running.
 
 ## Base usage ##
 ```
