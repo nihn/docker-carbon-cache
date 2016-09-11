@@ -1,4 +1,4 @@
-FROM carbon
+FROM mateuszm/carbon
 
 MAINTAINER mateuszmoneta@gmail.com
 
