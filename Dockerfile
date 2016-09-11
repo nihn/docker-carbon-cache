@@ -1,4 +1,4 @@
-FROM mateuszm/carbon
+FROM mateuszm/carbon:0.9.15
 
 MAINTAINER mateuszmoneta@gmail.com
 
