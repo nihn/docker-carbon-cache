@@ -24,6 +24,11 @@ by using environment variables in braces, e.g:
 MAX_CREATES_PER_MINUTE = {MAX_CREATES_PER_MINUTE}
 ```
 
+You can also pass additional options to carbon binary via `CARBON_OPTS` env:
+```
+docker run -e CARBON_OPTS="--instance cache-x" -p 2003:2003 -p 2004:2004 mateuszm/carbon-cache
+```
+
 ## Base compose file to run minimal graphite stack ##
 
 ```yaml
