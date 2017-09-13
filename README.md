@@ -7,8 +7,8 @@ docker run -p 2003:2003 -p 2004:2004 mateuszm/carbon-cache
 ```
 
 ## Configuration ##
-You can configure `MAX_CREATES_PER_MINUTE` and `MAX_UPDATES_PER_SECOND` via
-environment variables with same names.
+You can configure `MAX_CREATES_PER_MINUTE`, `MAX_UPDATES_PER_SECOND` and 
+`CACHE_WRITE_STRATEGY` via environment variables with same names.
 If you need some not standard configuration copy your own carbon-cache config:
 
 ```
